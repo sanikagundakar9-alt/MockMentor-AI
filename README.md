@@ -47,12 +47,6 @@ MockMentor-AI
 └── assets
 ```
 
----
-
-<img width="1582" height="668" alt="image" src="https://github.com/user-attachments/assets/8de3b814-21c1-4521-bcd1-89602c6301f0" />
-
-
-
 # Functionalities 🧠
 
 ## Mock Interview
