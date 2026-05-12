@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>HireGenius AI</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Sidebar -->
+
+  <div class="sidebar">
+
+    <h2>HireGenius AI</h2>
+
+    <ul>
+
+      <li>🏠 Dashboard</li>
+      <li>🎤 Mock Interview</li>
+      <li>🤖 AI Chatbot</li>
+      <li>📊 Analytics</li>
+      <li>📄 Resume Upload</li>
+
+    </ul>
+
+  </div>
+
+  <!-- Main -->
+
+  <div class="main">
+
+    <!-- Topbar -->
+
+    <div class="topbar">
+
+      <h1>AI Interview Preparation</h1>
+
+      <button id="themeBtn">
+        Toggle Theme
+      </button>
+
+    </div>
+
+    <!-- Interview Section -->
+
+    <div class="card">
+
+      <h2>Mock Interview</h2>
+
+      <p id="question">
+        Click below to start interview
+      </p>
+
+      <button onclick="startInterview()">
+        Start Interview
+      </button>
+
+      <button onclick="startVoice()">
+        🎤 Voice Answer
+      </button>
+
+      <textarea id="answer"
+        placeholder="Type your answer here..."></textarea>
+
+      <div id="timer">
+        Time Left: 60s
+      </div>
+
+    </div>
+
+    <!-- Resume Upload -->
+
+    <div class="card">
+
+      <h2>Resume Upload</h2>
+
+      <input type="file" id="resumeFile">
+
+      <button onclick="uploadResume()">
+        Upload Resume
+      </button>
+
+      <p id="resumeStatus"></p>
+
+    </div>
+
+    <!-- AI Chatbot -->
+
+    <div class="card">
+
+      <h2>AI Chatbot</h2>
+
+      <div class="chatbox" id="chatbox">
+
+        <div class="bot">
+          Hello 👋 I am HireGenius AI
+        </div>
+
+      </div>
+
+      <div class="chatInput">
+
+        <input type="text"
+          id="userInput"
+          placeholder="Ask interview questions...">
+
+        <button onclick="sendMessage()">
+          Send
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- Analytics -->
+
+    <div class="card">
+
+      <h2>Performance Analytics</h2>
+
+      <canvas id="scoreChart"></canvas>
+
+    </div>
+
+  </div>
+
+  <!-- Loader -->
+
+  <div id="loader">
+
+    <div class="spinner"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="interview.js"></script>
+  <script src="chatbot.js"></script>
+  <script src="score.js"></script>
+  <script src="analytics.js"></script>
+  <script src="voice.js"></script>
+
+</body>
+
+</html>
