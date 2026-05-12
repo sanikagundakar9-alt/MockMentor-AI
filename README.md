@@ -49,7 +49,7 @@ MockMentor-AI
 
 ---
 
-<img width="1882" height="868" alt="image" src="https://github.com/user-attachments/assets/8de3b814-21c1-4521-bcd1-89602c6301f0" />
+<img width="1582" height="668" alt="image" src="https://github.com/user-attachments/assets/8de3b814-21c1-4521-bcd1-89602c6301f0" />
 
 
 
