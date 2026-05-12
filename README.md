@@ -49,6 +49,9 @@ MockMentor-AI
 
 ---
 
+<img width="906" height="471" alt="image" src="https://github.com/user-attachments/assets/368a20db-b51b-4496-8acf-8d60abef8904" />
+
+
 # Functionalities 🧠
 
 ## Mock Interview
@@ -121,9 +124,6 @@ Open with Live Server
 ```
 
 ---
-
-# Screenshots 📸
-<img width="906" height="471" alt="image" src="https://github.com/user-attachments/assets/62528933-8756-4ada-946b-6d83f9cd13aa" />
 
 # Author 👩‍💻
 
