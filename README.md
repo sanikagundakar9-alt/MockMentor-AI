@@ -122,6 +122,7 @@ Open with Live Server
 ```
 
 ---
+<img width="1600" height="726" alt="image" src="https://github.com/user-attachments/assets/9c60bde1-eb97-473b-b58e-63e3e0f3a3ea" />
 
 # Author 👩‍💻
 
