@@ -46,6 +46,8 @@ MockMentor-AI
 ├── voice.js
 └── assets
 ```
+<img width="1870" height="851" alt="image" src="https://github.com/user-attachments/assets/bc76037b-4edc-4ac3-8c15-79d85a24846a" />
+
 
 # Functionalities 🧠
 
