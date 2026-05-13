@@ -19,6 +19,8 @@ MockMentor AI is an advanced AI-powered Interview Preparation Web Application de
 - Responsive Dashboard UI
 
 ---
+<img width="907" height="471" alt="image" src="https://github.com/user-attachments/assets/4bb0f160-2b32-4e3a-ba8e-cb9cf22d2150" />
+
 
 # Technologies Used 🚀
 
